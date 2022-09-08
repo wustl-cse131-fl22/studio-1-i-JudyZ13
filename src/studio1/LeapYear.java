@@ -7,7 +7,7 @@ public class LeapYear {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
-		System.out.println("The year is: ");
+		System.out.println("The chosen year is: ");
 		int year = in.nextInt();
 		
 		boolean isLeapYear = ((year%4 == 0) && (year%100 != 0)) || (year%400 == 0);
